@@ -20,6 +20,12 @@ public class MeteoParameter implements Serializable {
     private String endTime;
     private List<String> dates;
     private ValueForm values;
+    private ValueForm normValues;
 
-
+    public MeteoParameter(String meteoId, String parameterName, String startTime, String endTime) {
+        this.meteoId = meteoId;
+        this.parameterName = parameterName;
+        this.startTime = startTime;
+        this.endTime = endTime;
+    }
 }

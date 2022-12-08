@@ -10,14 +10,17 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.*;
+
+import static com.maripavlova.agroserver.meteo.utils.DateUtils.*;
+import static com.maripavlova.agroserver.meteo.utils.NormRegionUtils.readFromJson;
 
 @Service
 public class MeteoService {
@@ -27,52 +30,67 @@ public class MeteoService {
     static final String BASE_URL = "https://api.fieldclimate.com/v2";
 
 
-    public JSONObject getTemperatures() throws Exception {
-        String now = getServerTime();
-        String requestHttpMethod = "GET";
-        String requestRoute = "/data/00001F77/GROUP-BY/from/1669896389/to/1669982789";
-//        String requestRoute = "/station/00001F77";
-//        String requestRoute = "/user/stations";
+//    public JSONObject getTemperatures() throws Exception {
+//        String now = getServerTime();
+//        String requestHttpMethod = "GET";
+//        String requestRoute = "/data/00001F77/GROUP-BY/from/1669896389/to/1669982789";
+////        String requestRoute = "/station/00001F77";
+////        String requestRoute = "/user/stations";
+//
+//        HttpGet request = new HttpGet(BASE_URL + requestRoute);
+//        request.setHeader(HttpHeaders.DATE, now);
+//        request.setHeader(HttpHeaders.ACCEPT, "application/json");
+//        request.setHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+//
+//        String signatureRawData = String.format("%s%s%s%s", requestHttpMethod, requestRoute, now, PUBLIC_KEY);
+//        String requestSignatureString = encode(PRIVATE_KEY, signatureRawData);
+//        String authHeaderValue = String.format("hmac %s:%s", PUBLIC_KEY, requestSignatureString);
+//
+//        request.setHeader(HttpHeaders.AUTHORIZATION, authHeaderValue);
+//
+//        HttpClient httpClient = HttpClientBuilder.create().build();
+//        HttpResponse response = httpClient.execute(request);
+//        System.out.println(response.toString());
+//        String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
+//        System.out.println("Response body: " + responseBody);
+//        JSONObject jsonObject = new JSONObject(responseBody);
+//        System.out.println(jsonObject);
+//        JSONObject clean_json = new JSONObject();
+//
+//        clean_json.put("station_id", "00001F77");
+//        clean_json.put("time_to", "1669982789");
+//        clean_json.put("time_from", "1669896389");
+//
+//        JSONArray jsonDates = jsonObject.getJSONArray("dates");
+//        JSONObject jsonInfo = (jsonObject.getJSONArray("data"))
+//                            .getJSONObject(5);
+//        JSONObject jsonValues = jsonInfo.getJSONObject("values");
+//        String jsonParameterName = jsonInfo.getString("name_original");
+//        clean_json.put("parameter_name", jsonParameterName);
+//        clean_json.put("values", jsonValues);
+//        clean_json.put("dates", jsonDates);
+//        System.out.println(clean_json);
+//        return clean_json;
+//    }
 
-        HttpGet request = new HttpGet(BASE_URL + requestRoute);
-        request.setHeader(HttpHeaders.DATE, now);
-        request.setHeader(HttpHeaders.ACCEPT, "application/json");
-        request.setHeader(HttpHeaders.CONTENT_TYPE, "application/json");
-
-        String signatureRawData = String.format("%s%s%s%s", requestHttpMethod, requestRoute, now, PUBLIC_KEY);
-        String requestSignatureString = encode(PRIVATE_KEY, signatureRawData);
-        String authHeaderValue = String.format("hmac %s:%s", PUBLIC_KEY, requestSignatureString);
-
-        request.setHeader(HttpHeaders.AUTHORIZATION, authHeaderValue);
-
-        HttpClient httpClient = HttpClientBuilder.create().build();
-        HttpResponse response = httpClient.execute(request);
-        System.out.println(response.toString());
-        String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
-        System.out.println("Response body: " + responseBody);
-        JSONObject jsonObject = new JSONObject(responseBody);
-        System.out.println(jsonObject);
-        JSONObject clean_json = new JSONObject();
-
-        clean_json.put("station_id", "00001F77");
-        clean_json.put("time_to", "1669982789");
-        clean_json.put("time_from", "1669896389");
-
-        JSONArray jsonDates = jsonObject.getJSONArray("dates");
-        JSONObject jsonInfo = (jsonObject.getJSONArray("data"))
-                            .getJSONObject(5);
-        JSONObject jsonValues = jsonInfo.getJSONObject("values");
-        String jsonParameterName = jsonInfo.getString("name_original");
-        clean_json.put("parameter_name", jsonParameterName);
-        clean_json.put("values", jsonValues);
-        clean_json.put("dates", jsonDates);
-        System.out.println(clean_json);
-        return clean_json;
+    public MeteoParameter getTemperatures() throws Exception {
+        return getParameters(Parameters.HC_AIR_TEMPERATURE);
     }
 
-    @Cacheable("temperatures")
-    @Scheduled(fixedRate=25000)
-    public MeteoParameter getTemperatures2() throws Exception {
+    public MeteoParameter getWindSpeeds() throws Exception {
+        return getParameters(Parameters.WIND_SPEED);
+    }
+
+    public MeteoParameter getPrecipitations() throws Exception {
+        return getParameters(Parameters.PRECIPITATION);
+    }
+
+    public MeteoParameter getHumidities() throws Exception {
+        return getParameters(Parameters.HC_RELATIVE_HUMIDITY);
+    }
+
+    @Cacheable("parameters")
+    public MeteoParameter getParameters(Parameters parameterName) throws Exception {
         String now = getServerTime();
         String requestHttpMethod = "GET";
         String requestRoute = "/data/00001F77/GROUP-BY/from/1669896389/to/1669982789";
@@ -102,7 +120,7 @@ public class MeteoService {
 
         meteoParameter.setMeteoId("00001F77");
         JSONObject jsonInfo = (jsonObject.getJSONArray("data"))
-                .getJSONObject(5);
+                .getJSONObject(parameterName.ordinal());
         meteoParameter.setParameterName(jsonInfo.getString("name_original"));
         meteoParameter.setMeteoId("00001F77");
         meteoParameter.setStartTime("1669896389");
@@ -115,18 +133,252 @@ public class MeteoService {
             dates.add(jsonArrayDates.getString(i));
         }
         meteoParameter.setDates(dates);
-
-        JSONArray jsonArrayValues = jsonInfo.getJSONObject("values").getJSONArray("avg");
-        List<Integer> values = new ArrayList<>();
-        for (int i = 0; i < jsonArrayValues.length(); i++) {
-            values.add(jsonArrayValues.getInt(i));
+        String type = "avg";
+        if (parameterName == Parameters.PRECIPITATION) {
+            type = "sum";
         }
-        meteoParameter.setValues(new ValueForm("avg", values));
+        JSONArray jsonArrayValues = jsonInfo.getJSONObject("values").getJSONArray(type);
+//        JSONArray jsonArrayValues = jsonInfo.getJSONObject("values").getJSONArray("avg");
+
+
+        List<Float> values = new ArrayList<>();
+        for (int i = 0; i < jsonArrayValues.length(); i++) {
+            values.add(jsonArrayValues.getFloat(i));
+        }
+        meteoParameter.setValues(new ValueForm(type, values));
 
         return meteoParameter;
 
+    }
+
+    public HttpGet getRequest(String requestHttpMethod, String requestRoute) throws Exception {
+        String now = getServerTime();
+        HttpGet request = new HttpGet(BASE_URL + requestRoute);
+        request.setHeader(HttpHeaders.DATE, now);
+        request.setHeader(HttpHeaders.ACCEPT, "application/json");
+        request.setHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+
+        String signatureRawData = String.format("%s%s%s%s", requestHttpMethod, requestRoute, now, PUBLIC_KEY);
+        String requestSignatureString = encode(PRIVATE_KEY, signatureRawData);
+        String authHeaderValue = String.format("hmac %s:%s", PUBLIC_KEY, requestSignatureString);
+
+        request.setHeader(HttpHeaders.AUTHORIZATION, authHeaderValue);
+        return request;
+
+    }
+
+    public MeteoParameter createResponse(JSONObject jsonObject, MeteoParameter requestMeteoParameter) {
+
+        String stationId = requestMeteoParameter.getMeteoId();
+        Parameters parameterName = Parameters.valueOf(requestMeteoParameter.getParameterName());
+        String startTime = requestMeteoParameter.getStartTime();
+        String endTime = requestMeteoParameter.getEndTime();
+
+        MeteoParameter meteoParameter = new MeteoParameter();
+        meteoParameter.setMeteoId(stationId);
+        JSONObject jsonInfo = (jsonObject.getJSONArray("data"))
+                .getJSONObject(parameterName.ordinal());
+        meteoParameter.setParameterName(jsonInfo.getString("name_original"));
+        meteoParameter.setStartTime(startTime);
+        meteoParameter.setEndTime(endTime);
 
 
+        JSONArray jsonArrayDates = jsonObject.getJSONArray("dates");
+        List<String> dates = new ArrayList<>();
+        for (int i = 0; i < jsonArrayDates.length(); i++) {
+            dates.add(jsonArrayDates.getString(i));
+        }
+        meteoParameter.setDates(dates);
+        String type = "avg";
+        if (parameterName == Parameters.PRECIPITATION) {
+            type = "sum";
+        }
+        JSONArray jsonArrayValues = jsonInfo.getJSONObject("values").getJSONArray(type);
+
+
+        List<Float> values = new ArrayList<>();
+        for (int i = 0; i < jsonArrayValues.length(); i++) {
+            values.add(jsonArrayValues.getFloat(i));
+        }
+        meteoParameter.setValues(new ValueForm(type, values));
+
+        return meteoParameter;
+    }
+
+    public MeteoParameter createIncreasedPrecipitationResponse(JSONObject jsonObject, MeteoParameter requestMeteoParameter) {
+
+        String stationId = requestMeteoParameter.getMeteoId();
+        Parameters parameterName = Parameters.valueOf(requestMeteoParameter.getParameterName());
+        String startTime = requestMeteoParameter.getStartTime();
+        String endTime = requestMeteoParameter.getEndTime();
+
+        MeteoParameter meteoParameter = new MeteoParameter();
+        meteoParameter.setMeteoId(stationId);
+        JSONObject jsonInfo = (jsonObject.getJSONArray("data"))
+                .getJSONObject(parameterName.ordinal());
+        meteoParameter.setParameterName(jsonInfo.getString("name_original"));
+        meteoParameter.setStartTime(startTime);
+        meteoParameter.setEndTime(endTime);
+
+
+        JSONArray jsonArrayDates = jsonObject.getJSONArray("dates");
+        List<String> dates = new ArrayList<>();
+        for (int i = 0; i < jsonArrayDates.length(); i++) {
+            dates.add(jsonArrayDates.getString(i));
+        }
+        meteoParameter.setDates(dates);
+        String type = "sum";
+
+        JSONArray jsonArrayValues = jsonInfo.getJSONObject("values").getJSONArray(type);
+
+
+        List<Float> values = new ArrayList<>();
+        values.add(jsonArrayValues.getFloat(0));
+        for (int i = 1; i < jsonArrayValues.length(); i++) {
+            values.add(values.get(i-1) + jsonArrayValues.getInt(i));
+        }
+        meteoParameter.setValues(new ValueForm(type, values));
+
+        return meteoParameter;
+    }
+
+
+    public MeteoParameter getParams(MeteoParameter requestMeteoParameter) throws Exception {
+        String requestHttpMethod = "GET";
+        String requestRoute = String.format("/data/%s/GROUP-BY/from/%s/to/%s",
+                                            requestMeteoParameter.getMeteoId(),
+                                            requestMeteoParameter.getStartTime(),
+                                            requestMeteoParameter.getEndTime());
+        HttpGet request = getRequest(requestHttpMethod, requestRoute);
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        HttpResponse response = httpClient.execute(request);
+        System.out.println(response.toString());
+        String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
+        System.out.println("Response body: " + responseBody);
+        JSONObject jsonObject = new JSONObject(responseBody);
+        System.out.println(jsonObject);
+        return createResponse(jsonObject, requestMeteoParameter);
+    }
+
+    public MeteoParameter getIncreasedPrecipitation(MeteoParameter requestMeteoParameter) throws Exception {
+        String requestHttpMethod = "GET";
+        String requestRoute = String.format("/data/%s/GROUP-BY/from/%s/to/%s",
+                requestMeteoParameter.getMeteoId(),
+                requestMeteoParameter.getStartTime(),
+                requestMeteoParameter.getEndTime());
+        HttpGet request = getRequest(requestHttpMethod, requestRoute);
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        HttpResponse response = httpClient.execute(request);
+        System.out.println(response.toString());
+        String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
+        System.out.println("Response body: " + responseBody);
+        JSONObject jsonObject = new JSONObject(responseBody);
+        System.out.println(jsonObject);
+        return createIncreasedPrecipitationResponse(jsonObject, requestMeteoParameter);
+    }
+
+    public MeteoParameter createNormTemperatureResponse(JSONObject jsonObject, MeteoParameter requestMeteoParameter) throws IOException {
+        String stationId = requestMeteoParameter.getMeteoId();
+        Parameters parameterName = Parameters.valueOf(requestMeteoParameter.getParameterName());
+        String startTime = requestMeteoParameter.getStartTime();
+        String endTime = requestMeteoParameter.getEndTime();
+
+        MeteoParameter meteoParameter = new MeteoParameter();
+        meteoParameter.setMeteoId(stationId);
+        JSONObject jsonInfo = (jsonObject.getJSONArray("data"))
+                .getJSONObject(parameterName.ordinal());
+        meteoParameter.setParameterName(jsonInfo.getString("name_original"));
+        meteoParameter.setStartTime(startTime);
+        meteoParameter.setEndTime(endTime);
+
+
+        JSONArray jsonArrayDates = jsonObject.getJSONArray("dates");
+        List<String> dates = new ArrayList<>();
+        for (int i = 0; i < jsonArrayDates.length(); i++) {
+            dates.add(jsonArrayDates.getString(i));
+        }
+        meteoParameter.setDates(dates);
+        String type = "avg";
+        if (parameterName == Parameters.PRECIPITATION) {
+            type = "sum";
+        }
+        JSONArray jsonArrayValues = jsonInfo.getJSONObject("values").getJSONArray(type);
+
+
+        List<Float> values = new ArrayList<>();
+        for (int i = 0; i < jsonArrayValues.length(); i++) {
+            values.add(jsonArrayValues.getFloat(i));
+        }
+        meteoParameter.setValues(new ValueForm(type, values));
+
+        ValueForm normValues = getNormValues(startTime, endTime);
+        meteoParameter.setNormValues(normValues);
+
+        return meteoParameter;
+
+    }
+
+    public ValueForm getNormValues(String startTime, String endTime) throws IOException {
+
+        String startingTimeStr = startTime;
+        String endingTimeStr = endTime;
+
+        Integer between = getDaysBetween(startingTimeStr, endingTimeStr);
+
+        ValueForm values = new ValueForm("calculated");
+        Map<String, Float> dict = readFromJson();
+
+//        Integer countOfHours = getCountOfHourByEndDay(startingTimeStr, (byte) -1);
+//        for (int j = 0; j < countOfHours; j++) {
+//            values.getValues().add(dict.get(getSimpleNeedTime(startingTimeStr)[0]));
+//        }
+//        values.getValues().add(dict.get(getSimpleNeedTime(startingTimeStr)[0]));
+
+
+        for (int i = 0; i < between; i++) {
+            String[] nextDay = getNeedTime(startingTimeStr);
+            String nextDateView = nextDay[0];
+
+//            countOfHours = getCountOfHourByEndDay(startingTimeStr, (byte) 0);
+//            for (int j = 0; j < countOfHours; j++) {
+//                values.getValues().add(dict.get(nextDateView));
+//            }
+            values.getValues().add(dict.get(nextDateView));
+            startingTimeStr = nextDay[1];
+
+
+        }
+
+//        countOfHours = getCountOfHourByEndDay(startingTimeStr, (byte) 1);
+//        for (int j = 0; j < countOfHours; j++) {
+//            values.getValues().add(dict.get(getSimpleNeedTime(endingTimeStr)[0]));
+//        }
+        values.getValues().add(dict.get(getSimpleNeedTime(endingTimeStr)[0]));
+        System.out.println("==================");
+        System.out.println(values.getValues());
+        System.out.println(values.getValues().size());
+
+        return values;
+
+    }
+
+
+    public MeteoParameter getTemperatureWithNorm(MeteoParameter requestMeteoParameter) throws Exception {
+        String requestHttpMethod = "GET";
+        String requestRoute = String.format("/data/%s/daily/from/%s/to/%s",
+                requestMeteoParameter.getMeteoId(),
+                requestMeteoParameter.getStartTime(),
+                requestMeteoParameter.getEndTime());
+        HttpGet request = getRequest(requestHttpMethod, requestRoute);
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        HttpResponse response = httpClient.execute(request);
+        System.out.println(response.toString());
+        String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
+        System.out.println("Response body: " + responseBody);
+        JSONObject jsonObject = new JSONObject(responseBody);
+        System.out.println(jsonObject);
+
+        return createNormTemperatureResponse(jsonObject, requestMeteoParameter);
     }
 
     public static String getServerTime() {
@@ -144,4 +396,6 @@ public class MeteoService {
         sha256_HMAC.init(secret_key);
         return Hex.encodeHexString(sha256_HMAC.doFinal(data.getBytes("UTF-8")));
     }
+
+
 }

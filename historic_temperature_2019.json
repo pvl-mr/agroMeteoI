@@ -1,0 +1,3612 @@
+[
+ {
+   "date": "01.01.2019",
+   "maxTemperature": 3,
+   "minTemperature": -2,
+   "avgTemperature": 1.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -2.3
+ },
+ {
+   "date": "02.01.2019",
+   "maxTemperature": 4,
+   "minTemperature": 0,
+   "avgTemperature": 2.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -2.2
+ },
+ {
+   "date": "03.01.2019",
+   "maxTemperature": 5,
+   "minTemperature": 2,
+   "avgTemperature": 3.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -0.1
+ },
+ {
+   "date": "04.01.2019",
+   "maxTemperature": 8,
+   "minTemperature": 1,
+   "avgTemperature": 3.8,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": null,
+   "effectiveTemperature": -1.9
+ },
+ {
+   "date": "05.01.2019",
+   "maxTemperature": 2,
+   "minTemperature": 0,
+   "avgTemperature": 0.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -3.4
+ },
+ {
+   "date": "06.01.2019",
+   "maxTemperature": 3,
+   "minTemperature": 0,
+   "avgTemperature": 1.6,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -3
+ },
+ {
+   "date": "07.01.2019",
+   "maxTemperature": 6,
+   "minTemperature": 0,
+   "avgTemperature": 2.7,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -1.9
+ },
+ {
+   "date": "08.01.2019",
+   "maxTemperature": 5,
+   "minTemperature": 0,
+   "avgTemperature": 2.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -1.2
+ },
+ {
+   "date": "09.01.2019",
+   "maxTemperature": 1,
+   "minTemperature": -4,
+   "avgTemperature": -1.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -4.8
+ },
+ {
+   "date": "10.01.2019",
+   "maxTemperature": 6,
+   "minTemperature": 0,
+   "avgTemperature": 2.7,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -2.1
+ },
+ {
+   "date": "11.01.2019",
+   "maxTemperature": 11,
+   "minTemperature": 2,
+   "avgTemperature": 8.2,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 4
+ },
+ {
+   "date": "12.01.2019",
+   "maxTemperature": 8,
+   "minTemperature": 2,
+   "avgTemperature": 3.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 0
+ },
+ {
+   "date": "13.01.2019",
+   "maxTemperature": 3,
+   "minTemperature": 0,
+   "avgTemperature": 1.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": -1.3
+ },
+ {
+   "date": "14.01.2019",
+   "maxTemperature": 6,
+   "minTemperature": 1,
+   "avgTemperature": 2.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": -0.2
+ },
+ {
+   "date": "15.01.2019",
+   "maxTemperature": 8,
+   "minTemperature": 4,
+   "avgTemperature": 6.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 3.5
+ },
+ {
+   "date": "16.01.2019",
+   "maxTemperature": 5,
+   "minTemperature": -1,
+   "avgTemperature": 1.3,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -3.4
+ },
+ {
+   "date": "17.01.2019",
+   "maxTemperature": 5,
+   "minTemperature": -5,
+   "avgTemperature": -0.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": -4
+ },
+ {
+   "date": "18.01.2019",
+   "maxTemperature": 8,
+   "minTemperature": -5,
+   "avgTemperature": 1.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": -1.6
+ },
+ {
+   "date": "19.01.2019",
+   "maxTemperature": 8,
+   "minTemperature": -2,
+   "avgTemperature": 4.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 0.3
+ },
+ {
+   "date": "20.01.2019",
+   "maxTemperature": 3,
+   "minTemperature": 1,
+   "avgTemperature": 1.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -1.4
+ },
+ {
+   "date": "21.01.2019",
+   "maxTemperature": 12,
+   "minTemperature": -1,
+   "avgTemperature": 5.8,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 1.5
+ },
+ {
+   "date": "22.01.2019",
+   "maxTemperature": 5,
+   "minTemperature": -1,
+   "avgTemperature": 0.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -3.2
+ },
+ {
+   "date": "23.01.2019",
+   "maxTemperature": 6,
+   "minTemperature": -1,
+   "avgTemperature": 1.6,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": -3.1
+ },
+ {
+   "date": "24.01.2019",
+   "maxTemperature": 11,
+   "minTemperature": -1,
+   "avgTemperature": 4.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 1.3
+ },
+ {
+   "date": "25.01.2019",
+   "maxTemperature": 10,
+   "minTemperature": 1,
+   "avgTemperature": 5.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 1.8
+ },
+ {
+   "date": "26.01.2019",
+   "maxTemperature": 7,
+   "minTemperature": 1,
+   "avgTemperature": 4.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": -0.1
+ },
+ {
+   "date": "27.01.2019",
+   "maxTemperature": 12,
+   "minTemperature": 3,
+   "avgTemperature": 7.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 4
+ },
+ {
+   "date": "28.01.2019",
+   "maxTemperature": 4,
+   "minTemperature": -2,
+   "avgTemperature": 1.8,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": -0.9
+ },
+ {
+   "date": "29.01.2019",
+   "maxTemperature": 7,
+   "minTemperature": 0,
+   "avgTemperature": 3.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 0.8
+ },
+ {
+   "date": "30.01.2019",
+   "maxTemperature": 11,
+   "minTemperature": 2,
+   "avgTemperature": 4.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 1.3
+ },
+ {
+   "date": "31.01.2019",
+   "maxTemperature": 11,
+   "minTemperature": 1,
+   "avgTemperature": 5.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 1.6
+ },
+ {
+   "date": "01.02.2019",
+   "maxTemperature": 9,
+   "minTemperature": 3,
+   "avgTemperature": 5.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 2.7
+ },
+ {
+   "date": "02.02.2019",
+   "maxTemperature": 10,
+   "minTemperature": 2,
+   "avgTemperature": 6.8,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": null,
+   "effectiveTemperature": 5.5
+ },
+ {
+   "date": "03.02.2019",
+   "maxTemperature": 13,
+   "minTemperature": 3,
+   "avgTemperature": 8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 5.4
+ },
+ {
+   "date": "04.02.2019",
+   "maxTemperature": 10,
+   "minTemperature": -1,
+   "avgTemperature": 4.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 1.1
+ },
+ {
+   "date": "05.02.2019",
+   "maxTemperature": 2,
+   "minTemperature": -1,
+   "avgTemperature": 0.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": -2.3
+ },
+ {
+   "date": "06.02.2019",
+   "maxTemperature": 6,
+   "minTemperature": 0,
+   "avgTemperature": 2.1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": -0.5
+ },
+ {
+   "date": "07.02.2019",
+   "maxTemperature": 3,
+   "minTemperature": 1,
+   "avgTemperature": 1.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -2
+ },
+ {
+   "date": "08.02.2019",
+   "maxTemperature": 4,
+   "minTemperature": 1,
+   "avgTemperature": 2.2,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -2.4
+ },
+ {
+   "date": "09.02.2019",
+   "maxTemperature": 5,
+   "minTemperature": 2,
+   "avgTemperature": 2.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -0.3
+ },
+ {
+   "date": "10.02.2019",
+   "maxTemperature": 7,
+   "minTemperature": 2,
+   "avgTemperature": 4.2,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 1.9
+ },
+ {
+   "date": "11.02.2019",
+   "maxTemperature": 11,
+   "minTemperature": 1,
+   "avgTemperature": 5.8,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 3.6
+ },
+ {
+   "date": "12.02.2019",
+   "maxTemperature": 13,
+   "minTemperature": 0,
+   "avgTemperature": 5.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 2.9
+ },
+ {
+   "date": "13.02.2019",
+   "maxTemperature": 12,
+   "minTemperature": 1,
+   "avgTemperature": 5.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 2.3
+ },
+ {
+   "date": "14.02.2019",
+   "maxTemperature": 5,
+   "minTemperature": 1,
+   "avgTemperature": 3.2,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": -1.5
+ },
+ {
+   "date": "15.02.2019",
+   "maxTemperature": 7,
+   "minTemperature": -3,
+   "avgTemperature": 1.9,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": -3.6
+ },
+ {
+   "date": "16.02.2019",
+   "maxTemperature": 4,
+   "minTemperature": -6,
+   "avgTemperature": 0.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -4.5
+ },
+ {
+   "date": "17.02.2019",
+   "maxTemperature": 10,
+   "minTemperature": 2,
+   "avgTemperature": 5.4,
+   "atmPressure": "",
+   "windSpeed": 8,
+   "precipitation": null,
+   "effectiveTemperature": -0.8
+ },
+ {
+   "date": "18.02.2019",
+   "maxTemperature": 8,
+   "minTemperature": -3,
+   "avgTemperature": 4.9,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": null,
+   "effectiveTemperature": -1
+ },
+ {
+   "date": "19.02.2019",
+   "maxTemperature": 4,
+   "minTemperature": -5,
+   "avgTemperature": -0.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": -4.2
+ },
+ {
+   "date": "20.02.2019",
+   "maxTemperature": 10,
+   "minTemperature": -4,
+   "avgTemperature": 3.7,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": -0.4
+ },
+ {
+   "date": "21.02.2019",
+   "maxTemperature": 9,
+   "minTemperature": -2,
+   "avgTemperature": 4.9,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 0.5
+ },
+ {
+   "date": "22.02.2019",
+   "maxTemperature": 6,
+   "minTemperature": 2,
+   "avgTemperature": 4.7,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 0.9
+ },
+ {
+   "date": "23.02.2019",
+   "maxTemperature": 4,
+   "minTemperature": -3,
+   "avgTemperature": 1.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -2
+ },
+ {
+   "date": "24.02.2019",
+   "maxTemperature": -2,
+   "minTemperature": -4,
+   "avgTemperature": -3.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -7.2
+ },
+ {
+   "date": "25.02.2019",
+   "maxTemperature": 5,
+   "minTemperature": -4,
+   "avgTemperature": 0.8,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -4.2
+ },
+ {
+   "date": "26.02.2019",
+   "maxTemperature": 8,
+   "minTemperature": 0,
+   "avgTemperature": 3.3,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -1.1
+ },
+ {
+   "date": "27.02.2019",
+   "maxTemperature": 4,
+   "minTemperature": 0,
+   "avgTemperature": 1.3,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": null,
+   "effectiveTemperature": -0.8
+ },
+ {
+   "date": "28.02.2019",
+   "maxTemperature": 6,
+   "minTemperature": 0,
+   "avgTemperature": 2.7,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -1.9
+ },
+ {
+   "date": "01.03.2019",
+   "maxTemperature": 6,
+   "minTemperature": 2,
+   "avgTemperature": 4.1,
+   "atmPressure": "",
+   "windSpeed": 9,
+   "precipitation": null,
+   "effectiveTemperature": -2.9
+ },
+ {
+   "date": "02.03.2019",
+   "maxTemperature": 7,
+   "minTemperature": -3,
+   "avgTemperature": 2.8,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -1.9
+ },
+ {
+   "date": "03.03.2019",
+   "maxTemperature": 4,
+   "minTemperature": -3,
+   "avgTemperature": 0.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": -3
+ },
+ {
+   "date": "04.03.2019",
+   "maxTemperature": 9,
+   "minTemperature": -3,
+   "avgTemperature": 3.3,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": -1.4
+ },
+ {
+   "date": "05.03.2019",
+   "maxTemperature": 14,
+   "minTemperature": 1,
+   "avgTemperature": 7.9,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 3.5
+ },
+ {
+   "date": "06.03.2019",
+   "maxTemperature": 11,
+   "minTemperature": 4,
+   "avgTemperature": 8.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 4.8
+ },
+ {
+   "date": "07.03.2019",
+   "maxTemperature": 12,
+   "minTemperature": 0,
+   "avgTemperature": 6.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 4.4
+ },
+ {
+   "date": "08.03.2019",
+   "maxTemperature": 14,
+   "minTemperature": 0,
+   "avgTemperature": 6.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 3.1
+ },
+ {
+   "date": "09.03.2019",
+   "maxTemperature": 18,
+   "minTemperature": 3,
+   "avgTemperature": 10.2,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 6.7
+ },
+ {
+   "date": "10.03.2019",
+   "maxTemperature": 17,
+   "minTemperature": 7,
+   "avgTemperature": 10.8,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": null,
+   "effectiveTemperature": 5.4
+ },
+ {
+   "date": "11.03.2019",
+   "maxTemperature": 14,
+   "minTemperature": 4,
+   "avgTemperature": 10.5,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 5.3
+ },
+ {
+   "date": "12.03.2019",
+   "maxTemperature": 10,
+   "minTemperature": 3,
+   "avgTemperature": 7.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 3.9
+ },
+ {
+   "date": "13.03.2019",
+   "maxTemperature": 3,
+   "minTemperature": -2,
+   "avgTemperature": 1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": -1.7
+ },
+ {
+   "date": "14.03.2019",
+   "maxTemperature": 7,
+   "minTemperature": -2,
+   "avgTemperature": 4.1,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -0.3
+ },
+ {
+   "date": "15.03.2019",
+   "maxTemperature": 9,
+   "minTemperature": 5,
+   "avgTemperature": 6.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 4.9
+ },
+ {
+   "date": "16.03.2019",
+   "maxTemperature": 8,
+   "minTemperature": 6,
+   "avgTemperature": 7.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 4.5
+ },
+ {
+   "date": "17.03.2019",
+   "maxTemperature": 9,
+   "minTemperature": 2,
+   "avgTemperature": 6.6,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 2.6
+ },
+ {
+   "date": "18.03.2019",
+   "maxTemperature": 12,
+   "minTemperature": 2,
+   "avgTemperature": 6.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 3.3
+ },
+ {
+   "date": "19.03.2019",
+   "maxTemperature": 15,
+   "minTemperature": 1,
+   "avgTemperature": 7.8,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 3.7
+ },
+ {
+   "date": "20.03.2019",
+   "maxTemperature": 16,
+   "minTemperature": 1,
+   "avgTemperature": 7.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 4.4
+ },
+ {
+   "date": "21.03.2019",
+   "maxTemperature": 14,
+   "minTemperature": 0,
+   "avgTemperature": 7.8,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 3.7
+ },
+ {
+   "date": "22.03.2019",
+   "maxTemperature": 12,
+   "minTemperature": 6,
+   "avgTemperature": 8.8,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": null,
+   "effectiveTemperature": 3.3
+ },
+ {
+   "date": "23.03.2019",
+   "maxTemperature": 8,
+   "minTemperature": 0,
+   "avgTemperature": 4.5,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 0
+ },
+ {
+   "date": "24.03.2019",
+   "maxTemperature": 6,
+   "minTemperature": 0,
+   "avgTemperature": 3.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -0.8
+ },
+ {
+   "date": "25.03.2019",
+   "maxTemperature": 12,
+   "minTemperature": 0,
+   "avgTemperature": 5.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 2.6
+ },
+ {
+   "date": "26.03.2019",
+   "maxTemperature": 15,
+   "minTemperature": 0,
+   "avgTemperature": 7.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 5
+ },
+ {
+   "date": "27.03.2019",
+   "maxTemperature": 15,
+   "minTemperature": 0,
+   "avgTemperature": 7,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 3.5
+ },
+ {
+   "date": "28.03.2019",
+   "maxTemperature": 9,
+   "minTemperature": 2,
+   "avgTemperature": 4.8,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": null,
+   "effectiveTemperature": -0.3
+ },
+ {
+   "date": "29.03.2019",
+   "maxTemperature": 9,
+   "minTemperature": -1,
+   "avgTemperature": 4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 1.2
+ },
+ {
+   "date": "30.03.2019",
+   "maxTemperature": 12,
+   "minTemperature": -2,
+   "avgTemperature": 5.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 2.4
+ },
+ {
+   "date": "31.03.2019",
+   "maxTemperature": 17,
+   "minTemperature": 0,
+   "avgTemperature": 9.2,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 4.8
+ },
+ {
+   "date": "01.04.2019",
+   "maxTemperature": 13,
+   "minTemperature": 1,
+   "avgTemperature": 7.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 3.7
+ },
+ {
+   "date": "02.04.2019",
+   "maxTemperature": 10,
+   "minTemperature": 5,
+   "avgTemperature": 7.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 5.3
+ },
+ {
+   "date": "03.04.2019",
+   "maxTemperature": 11,
+   "minTemperature": 0,
+   "avgTemperature": 6.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 3.1
+ },
+ {
+   "date": "04.04.2019",
+   "maxTemperature": 10,
+   "minTemperature": -1,
+   "avgTemperature": 4.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 2.3
+ },
+ {
+   "date": "05.04.2019",
+   "maxTemperature": 16,
+   "minTemperature": 2,
+   "avgTemperature": 8.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 6.1
+ },
+ {
+   "date": "06.04.2019",
+   "maxTemperature": 22,
+   "minTemperature": 3,
+   "avgTemperature": 12.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 9.5
+ },
+ {
+   "date": "07.04.2019",
+   "maxTemperature": 22,
+   "minTemperature": 5,
+   "avgTemperature": 13.9,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 9.6
+ },
+ {
+   "date": "08.04.2019",
+   "maxTemperature": 22,
+   "minTemperature": 6,
+   "avgTemperature": 14.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 11.1
+ },
+ {
+   "date": "09.04.2019",
+   "maxTemperature": 24,
+   "minTemperature": 7,
+   "avgTemperature": 15.7,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 13.2
+ },
+ {
+   "date": "10.04.2019",
+   "maxTemperature": 24,
+   "minTemperature": 9,
+   "avgTemperature": 15.2,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 13
+ },
+ {
+   "date": "11.04.2019",
+   "maxTemperature": 22,
+   "minTemperature": 9,
+   "avgTemperature": 14.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 12.9
+ },
+ {
+   "date": "12.04.2019",
+   "maxTemperature": 17,
+   "minTemperature": 9,
+   "avgTemperature": 13.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 10.7
+ },
+ {
+   "date": "13.04.2019",
+   "maxTemperature": 16,
+   "minTemperature": 8,
+   "avgTemperature": 12.7,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 10.4
+ },
+ {
+   "date": "14.04.2019",
+   "maxTemperature": 18,
+   "minTemperature": 8,
+   "avgTemperature": 13.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 12.2
+ },
+ {
+   "date": "15.04.2019",
+   "maxTemperature": 17,
+   "minTemperature": 10,
+   "avgTemperature": 13.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 11.4
+ },
+ {
+   "date": "16.04.2019",
+   "maxTemperature": 15,
+   "minTemperature": 8,
+   "avgTemperature": 12,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 10.2
+ },
+ {
+   "date": "17.04.2019",
+   "maxTemperature": 12,
+   "minTemperature": 5,
+   "avgTemperature": 8.9,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 5.3
+ },
+ {
+   "date": "18.04.2019",
+   "maxTemperature": 7,
+   "minTemperature": 3,
+   "avgTemperature": 5.2,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": null,
+   "effectiveTemperature": -0.4
+ },
+ {
+   "date": "19.04.2019",
+   "maxTemperature": 10,
+   "minTemperature": 2,
+   "avgTemperature": 6.1,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": null,
+   "effectiveTemperature": 1.2
+ },
+ {
+   "date": "20.04.2019",
+   "maxTemperature": 13,
+   "minTemperature": 4,
+   "avgTemperature": 7.9,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 2.9
+ },
+ {
+   "date": "21.04.2019",
+   "maxTemperature": 14,
+   "minTemperature": 4,
+   "avgTemperature": 9.6,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 4
+ },
+ {
+   "date": "22.04.2019",
+   "maxTemperature": 16,
+   "minTemperature": 5,
+   "avgTemperature": 10.4,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 5.6
+ },
+ {
+   "date": "23.04.2019",
+   "maxTemperature": 18,
+   "minTemperature": 3,
+   "avgTemperature": 11.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 8.6
+ },
+ {
+   "date": "24.04.2019",
+   "maxTemperature": 20,
+   "minTemperature": 4,
+   "avgTemperature": 12.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 10.5
+ },
+ {
+   "date": "25.04.2019",
+   "maxTemperature": 23,
+   "minTemperature": 6,
+   "avgTemperature": 14.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 11.8
+ },
+ {
+   "date": "26.04.2019",
+   "maxTemperature": 24,
+   "minTemperature": 7,
+   "avgTemperature": 15.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 14
+ },
+ {
+   "date": "27.04.2019",
+   "maxTemperature": 26,
+   "minTemperature": 7,
+   "avgTemperature": 15.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 14.6
+ },
+ {
+   "date": "28.04.2019",
+   "maxTemperature": 24,
+   "minTemperature": 8,
+   "avgTemperature": 16.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 14.7
+ },
+ {
+   "date": "29.04.2019",
+   "maxTemperature": 23,
+   "minTemperature": 6,
+   "avgTemperature": 15.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 13.2
+ },
+ {
+   "date": "30.04.2019",
+   "maxTemperature": 25,
+   "minTemperature": 10,
+   "avgTemperature": 17.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 15.8
+ },
+ {
+   "date": "01.05.2019",
+   "maxTemperature": 27,
+   "minTemperature": 10,
+   "avgTemperature": 18.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 17.5
+ },
+ {
+   "date": "02.05.2019",
+   "maxTemperature": 23,
+   "minTemperature": 12,
+   "avgTemperature": 17.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 15.7
+ },
+ {
+   "date": "03.05.2019",
+   "maxTemperature": 19,
+   "minTemperature": 8,
+   "avgTemperature": 13.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 11.5
+ },
+ {
+   "date": "04.05.2019",
+   "maxTemperature": 22,
+   "minTemperature": 7,
+   "avgTemperature": 15.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 14.2
+ },
+ {
+   "date": "05.05.2019",
+   "maxTemperature": 23,
+   "minTemperature": 8,
+   "avgTemperature": 16.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 14.3
+ },
+ {
+   "date": "06.05.2019",
+   "maxTemperature": 25,
+   "minTemperature": 10,
+   "avgTemperature": 17.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 16.4
+ },
+ {
+   "date": "07.05.2019",
+   "maxTemperature": 31,
+   "minTemperature": 13,
+   "avgTemperature": 21.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 20.4
+ },
+ {
+   "date": "08.05.2019",
+   "maxTemperature": 20,
+   "minTemperature": 13,
+   "avgTemperature": 16.5,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 15.1
+ },
+ {
+   "date": "09.05.2019",
+   "maxTemperature": 18,
+   "minTemperature": 11,
+   "avgTemperature": 14.6,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 11.8
+ },
+ {
+   "date": "10.05.2019",
+   "maxTemperature": 20,
+   "minTemperature": 11,
+   "avgTemperature": 15.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 13.9
+ },
+ {
+   "date": "11.05.2019",
+   "maxTemperature": 24,
+   "minTemperature": 11,
+   "avgTemperature": 17.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 16.2
+ },
+ {
+   "date": "12.05.2019",
+   "maxTemperature": 19,
+   "minTemperature": 13,
+   "avgTemperature": 15.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 15.7
+ },
+ {
+   "date": "13.05.2019",
+   "maxTemperature": 21,
+   "minTemperature": 11,
+   "avgTemperature": 16.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 15.6
+ },
+ {
+   "date": "14.05.2019",
+   "maxTemperature": 24,
+   "minTemperature": 11,
+   "avgTemperature": 17.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 16.5
+ },
+ {
+   "date": "15.05.2019",
+   "maxTemperature": 26,
+   "minTemperature": 10,
+   "avgTemperature": 19.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 19.1
+ },
+ {
+   "date": "20.05.2019",
+   "maxTemperature": 23,
+   "minTemperature": 16,
+   "avgTemperature": 18.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 19.4
+ },
+ {
+   "date": "21.05.2019",
+   "maxTemperature": 28,
+   "minTemperature": 13,
+   "avgTemperature": 21.5,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 20.4
+ },
+ {
+   "date": "22.05.2019",
+   "maxTemperature": 24,
+   "minTemperature": 15,
+   "avgTemperature": 19.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 18.9
+ },
+ {
+   "date": "23.05.2019",
+   "maxTemperature": 26,
+   "minTemperature": 13,
+   "avgTemperature": 20.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 18.3
+ },
+ {
+   "date": "24.05.2019",
+   "maxTemperature": 27,
+   "minTemperature": 14,
+   "avgTemperature": 22.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 21.7
+ },
+ {
+   "date": "25.05.2019",
+   "maxTemperature": 21,
+   "minTemperature": 16,
+   "avgTemperature": 18.2,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 17.3
+ },
+ {
+   "date": "26.05.2019",
+   "maxTemperature": 22,
+   "minTemperature": 16,
+   "avgTemperature": 19.1,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": null,
+   "effectiveTemperature": 16
+ },
+ {
+   "date": "27.05.2019",
+   "maxTemperature": 25,
+   "minTemperature": 14,
+   "avgTemperature": 20.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 19.2
+ },
+ {
+   "date": "28.05.2019",
+   "maxTemperature": 26,
+   "minTemperature": 13,
+   "avgTemperature": 20.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 19.7
+ },
+ {
+   "date": "29.05.2019",
+   "maxTemperature": 30,
+   "minTemperature": 16,
+   "avgTemperature": 23.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 21.8
+ },
+ {
+   "date": "30.05.2019",
+   "maxTemperature": 33,
+   "minTemperature": 15,
+   "avgTemperature": 24.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 23.7
+ },
+ {
+   "date": "31.05.2019",
+   "maxTemperature": 30,
+   "minTemperature": 16,
+   "avgTemperature": 24.1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 25.1
+ },
+ {
+   "date": "01.06.2019",
+   "maxTemperature": 32,
+   "minTemperature": 18,
+   "avgTemperature": 25.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 26.1
+ },
+ {
+   "date": "02.06.2019",
+   "maxTemperature": 32,
+   "minTemperature": 19,
+   "avgTemperature": 26.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 27
+ },
+ {
+   "date": "03.06.2019",
+   "maxTemperature": 30,
+   "minTemperature": 20,
+   "avgTemperature": 24.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 26
+ },
+ {
+   "date": "04.06.2019",
+   "maxTemperature": 30,
+   "minTemperature": 19,
+   "avgTemperature": 24.2,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 25.8
+ },
+ {
+   "date": "05.06.2019",
+   "maxTemperature": 30,
+   "minTemperature": 20,
+   "avgTemperature": 25.1,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 23.7
+ },
+ {
+   "date": "06.06.2019",
+   "maxTemperature": 29,
+   "minTemperature": 17,
+   "avgTemperature": 23.7,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 22.5
+ },
+ {
+   "date": "07.06.2019",
+   "maxTemperature": 30,
+   "minTemperature": 16,
+   "avgTemperature": 22.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 22.8
+ },
+ {
+   "date": "08.06.2019",
+   "maxTemperature": 29,
+   "minTemperature": 15,
+   "avgTemperature": 22.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 23
+ },
+ {
+   "date": "09.06.2019",
+   "maxTemperature": 32,
+   "minTemperature": 15,
+   "avgTemperature": 24.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 23.3
+ },
+ {
+   "date": "10.06.2019",
+   "maxTemperature": 33,
+   "minTemperature": 19,
+   "avgTemperature": 26.3,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 24.4
+ },
+ {
+   "date": "11.06.2019",
+   "maxTemperature": 32,
+   "minTemperature": 19,
+   "avgTemperature": 25.7,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 25.1
+ },
+ {
+   "date": "12.06.2019",
+   "maxTemperature": 31,
+   "minTemperature": 20,
+   "avgTemperature": 25.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 26.2
+ },
+ {
+   "date": "13.06.2019",
+   "maxTemperature": 30,
+   "minTemperature": 20,
+   "avgTemperature": 24.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 25.4
+ },
+ {
+   "date": "14.06.2019",
+   "maxTemperature": 31,
+   "minTemperature": 20,
+   "avgTemperature": 26,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 23.9
+ },
+ {
+   "date": "15.06.2019",
+   "maxTemperature": 33,
+   "minTemperature": 17,
+   "avgTemperature": 26.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 25.5
+ },
+ {
+   "date": "16.06.2019",
+   "maxTemperature": 34,
+   "minTemperature": 18,
+   "avgTemperature": 26.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 26.6
+ },
+ {
+   "date": "17.06.2019",
+   "maxTemperature": 33,
+   "minTemperature": 20,
+   "avgTemperature": 26.7,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 26.1
+ },
+ {
+   "date": "18.06.2019",
+   "maxTemperature": 33,
+   "minTemperature": 19,
+   "avgTemperature": 26.5,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 24.6
+ },
+ {
+   "date": "19.06.2019",
+   "maxTemperature": 35,
+   "minTemperature": 17,
+   "avgTemperature": 27.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 26
+ },
+ {
+   "date": "20.06.2019",
+   "maxTemperature": 35,
+   "minTemperature": 19,
+   "avgTemperature": 28.9,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 26.4
+ },
+ {
+   "date": "21.06.2019",
+   "maxTemperature": 35,
+   "minTemperature": 23,
+   "avgTemperature": 28.9,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 26.4
+ },
+ {
+   "date": "22.06.2019",
+   "maxTemperature": 34,
+   "minTemperature": 24,
+   "avgTemperature": 28.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 27.8
+ },
+ {
+   "date": "23.06.2019",
+   "maxTemperature": 27,
+   "minTemperature": 20,
+   "avgTemperature": 23.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 24.4
+ },
+ {
+   "date": "24.06.2019",
+   "maxTemperature": 30,
+   "minTemperature": 20,
+   "avgTemperature": 24.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 25.8
+ },
+ {
+   "date": "25.06.2019",
+   "maxTemperature": 32,
+   "minTemperature": 21,
+   "avgTemperature": 27.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 28.2
+ },
+ {
+   "date": "26.06.2019",
+   "maxTemperature": 33,
+   "minTemperature": 20,
+   "avgTemperature": 27.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 27
+ },
+ {
+   "date": "27.06.2019",
+   "maxTemperature": 33,
+   "minTemperature": 20,
+   "avgTemperature": 26.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 26.5
+ },
+ {
+   "date": "28.06.2019",
+   "maxTemperature": 32,
+   "minTemperature": 19,
+   "avgTemperature": 25.9,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 24.7
+ },
+ {
+   "date": "29.06.2019",
+   "maxTemperature": 25,
+   "minTemperature": 16,
+   "avgTemperature": 20.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 19.2
+ },
+ {
+   "date": "30.06.2019",
+   "maxTemperature": 25,
+   "minTemperature": 13,
+   "avgTemperature": 19.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 17.2
+ },
+ {
+   "date": "01.07.2019",
+   "maxTemperature": 28,
+   "minTemperature": 14,
+   "avgTemperature": 22.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 20.8
+ },
+ {
+   "date": "02.07.2019",
+   "maxTemperature": 32,
+   "minTemperature": 17,
+   "avgTemperature": 25.5,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 25.4
+ },
+ {
+   "date": "03.07.2019",
+   "maxTemperature": 33,
+   "minTemperature": 17,
+   "avgTemperature": 26.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 26.8
+ },
+ {
+   "date": "04.07.2019",
+   "maxTemperature": 33,
+   "minTemperature": 19,
+   "avgTemperature": 26.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 26.1
+ },
+ {
+   "date": "05.07.2019",
+   "maxTemperature": 30,
+   "minTemperature": 17,
+   "avgTemperature": 24,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 23.3
+ },
+ {
+   "date": "06.07.2019",
+   "maxTemperature": 31,
+   "minTemperature": 14,
+   "avgTemperature": 23.8,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 23.5
+ },
+ {
+   "date": "07.07.2019",
+   "maxTemperature": 30,
+   "minTemperature": 17,
+   "avgTemperature": 24.8,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 25.1
+ },
+ {
+   "date": "08.07.2019",
+   "maxTemperature": 32,
+   "minTemperature": 17,
+   "avgTemperature": 25.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 24.7
+ },
+ {
+   "date": "09.07.2019",
+   "maxTemperature": 29,
+   "minTemperature": 17,
+   "avgTemperature": 23.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 21.5
+ },
+ {
+   "date": "10.07.2019",
+   "maxTemperature": 26,
+   "minTemperature": 16,
+   "avgTemperature": 21.5,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 21.5
+ },
+ {
+   "date": "11.07.2019",
+   "maxTemperature": 20,
+   "minTemperature": 16,
+   "avgTemperature": 18.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 17.2
+ },
+ {
+   "date": "12.07.2019",
+   "maxTemperature": 25,
+   "minTemperature": 16,
+   "avgTemperature": 19.7,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 19.9
+ },
+ {
+   "date": "13.07.2019",
+   "maxTemperature": 24,
+   "minTemperature": 15,
+   "avgTemperature": 18.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 18.2
+ },
+ {
+   "date": "14.07.2019",
+   "maxTemperature": 27,
+   "minTemperature": 14,
+   "avgTemperature": 21.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 21.4
+ },
+ {
+   "date": "15.07.2019",
+   "maxTemperature": 24,
+   "minTemperature": 17,
+   "avgTemperature": 20.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 20.1
+ },
+ {
+   "date": "16.07.2019",
+   "maxTemperature": 25,
+   "minTemperature": 18,
+   "avgTemperature": 20.8,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 19.6
+ },
+ {
+   "date": "17.07.2019",
+   "maxTemperature": 28,
+   "minTemperature": 15,
+   "avgTemperature": 22.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 23.3
+ },
+ {
+   "date": "18.07.2019",
+   "maxTemperature": 26,
+   "minTemperature": 18,
+   "avgTemperature": 22.5,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 22.7
+ },
+ {
+   "date": "19.07.2019",
+   "maxTemperature": 27,
+   "minTemperature": 16,
+   "avgTemperature": 22.8,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 23.7
+ },
+ {
+   "date": "20.07.2019",
+   "maxTemperature": 31,
+   "minTemperature": 20,
+   "avgTemperature": 25.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 25.9
+ },
+ {
+   "date": "21.07.2019",
+   "maxTemperature": 24,
+   "minTemperature": 18,
+   "avgTemperature": 21.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 21.5
+ },
+ {
+   "date": "22.07.2019",
+   "maxTemperature": 28,
+   "minTemperature": 18,
+   "avgTemperature": 22.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 22.3
+ },
+ {
+   "date": "23.07.2019",
+   "maxTemperature": 30,
+   "minTemperature": 18,
+   "avgTemperature": 24.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 24.8
+ },
+ {
+   "date": "24.07.2019",
+   "maxTemperature": 29,
+   "minTemperature": 19,
+   "avgTemperature": 24.2,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 25.7
+ },
+ {
+   "date": "25.07.2019",
+   "maxTemperature": 28,
+   "minTemperature": 19,
+   "avgTemperature": 22.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 22.8
+ },
+ {
+   "date": "26.07.2019",
+   "maxTemperature": 27,
+   "minTemperature": 18,
+   "avgTemperature": 22.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 22
+ },
+ {
+   "date": "27.07.2019",
+   "maxTemperature": 29,
+   "minTemperature": 18,
+   "avgTemperature": 23.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 23.4
+ },
+ {
+   "date": "28.07.2019",
+   "maxTemperature": 29,
+   "minTemperature": 18,
+   "avgTemperature": 24.1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 25.4
+ },
+ {
+   "date": "29.07.2019",
+   "maxTemperature": 31,
+   "minTemperature": 18,
+   "avgTemperature": 24.8,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 26.7
+ },
+ {
+   "date": "30.07.2019",
+   "maxTemperature": 30,
+   "minTemperature": 19,
+   "avgTemperature": 24.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 26.7
+ },
+ {
+   "date": "31.07.2019",
+   "maxTemperature": 31,
+   "minTemperature": 20,
+   "avgTemperature": 25.6,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 25.4
+ },
+ {
+   "date": "01.08.2019",
+   "maxTemperature": 28,
+   "minTemperature": 16,
+   "avgTemperature": 23.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 23.4
+ },
+ {
+   "date": "02.08.2019",
+   "maxTemperature": 26,
+   "minTemperature": 14,
+   "avgTemperature": 20.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 20.8
+ },
+ {
+   "date": "03.08.2019",
+   "maxTemperature": 27,
+   "minTemperature": 14,
+   "avgTemperature": 20.7,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 21
+ },
+ {
+   "date": "04.08.2019",
+   "maxTemperature": 26,
+   "minTemperature": 16,
+   "avgTemperature": 20.8,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": null,
+   "effectiveTemperature": 18.9
+ },
+ {
+   "date": "05.08.2019",
+   "maxTemperature": 24,
+   "minTemperature": 14,
+   "avgTemperature": 18.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 17.2
+ },
+ {
+   "date": "06.08.2019",
+   "maxTemperature": 26,
+   "minTemperature": 13,
+   "avgTemperature": 19.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 19.1
+ },
+ {
+   "date": "07.08.2019",
+   "maxTemperature": 27,
+   "minTemperature": 12,
+   "avgTemperature": 21.2,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 21.3
+ },
+ {
+   "date": "08.08.2019",
+   "maxTemperature": 30,
+   "minTemperature": 14,
+   "avgTemperature": 22.5,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 22.9
+ },
+ {
+   "date": "09.08.2019",
+   "maxTemperature": 31,
+   "minTemperature": 16,
+   "avgTemperature": 24.2,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 24.9
+ },
+ {
+   "date": "10.08.2019",
+   "maxTemperature": 30,
+   "minTemperature": 17,
+   "avgTemperature": 23.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 22.7
+ },
+ {
+   "date": "11.08.2019",
+   "maxTemperature": 29,
+   "minTemperature": 15,
+   "avgTemperature": 22.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 22.6
+ },
+ {
+   "date": "12.08.2019",
+   "maxTemperature": 30,
+   "minTemperature": 14,
+   "avgTemperature": 22.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 22.9
+ },
+ {
+   "date": "13.08.2019",
+   "maxTemperature": 31,
+   "minTemperature": 18,
+   "avgTemperature": 25.1,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 22
+ },
+ {
+   "date": "14.08.2019",
+   "maxTemperature": 34,
+   "minTemperature": 20,
+   "avgTemperature": 26.6,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 23.3
+ },
+ {
+   "date": "15.08.2019",
+   "maxTemperature": 33,
+   "minTemperature": 19,
+   "avgTemperature": 26.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 26.2
+ },
+ {
+   "date": "16.08.2019",
+   "maxTemperature": 28,
+   "minTemperature": 21,
+   "avgTemperature": 24.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 25.7
+ },
+ {
+   "date": "17.08.2019",
+   "maxTemperature": 28,
+   "minTemperature": 20,
+   "avgTemperature": 23.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 24.7
+ },
+ {
+   "date": "18.08.2019",
+   "maxTemperature": 22,
+   "minTemperature": 19,
+   "avgTemperature": 20.5,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 21
+ },
+ {
+   "date": "19.08.2019",
+   "maxTemperature": 27,
+   "minTemperature": 19,
+   "avgTemperature": 22.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 24
+ },
+ {
+   "date": "20.08.2019",
+   "maxTemperature": 34,
+   "minTemperature": 20,
+   "avgTemperature": 27.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 28.3
+ },
+ {
+   "date": "21.08.2019",
+   "maxTemperature": 34,
+   "minTemperature": 21,
+   "avgTemperature": 27.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 28.6
+ },
+ {
+   "date": "22.08.2019",
+   "maxTemperature": 30,
+   "minTemperature": 18,
+   "avgTemperature": 24.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 24.4
+ },
+ {
+   "date": "23.08.2019",
+   "maxTemperature": 35,
+   "minTemperature": 17,
+   "avgTemperature": 25.1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 25.8
+ },
+ {
+   "date": "24.08.2019",
+   "maxTemperature": 31,
+   "minTemperature": 18,
+   "avgTemperature": 25.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 25.6
+ },
+ {
+   "date": "25.08.2019",
+   "maxTemperature": 34,
+   "minTemperature": 20,
+   "avgTemperature": 26.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 26.8
+ },
+ {
+   "date": "26.08.2019",
+   "maxTemperature": 32,
+   "minTemperature": 18,
+   "avgTemperature": 25.2,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 23.6
+ },
+ {
+   "date": "27.08.2019",
+   "maxTemperature": 33,
+   "minTemperature": 18,
+   "avgTemperature": 26.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 24.7
+ },
+ {
+   "date": "28.08.2019",
+   "maxTemperature": 30,
+   "minTemperature": 15,
+   "avgTemperature": 23.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 22.1
+ },
+ {
+   "date": "29.08.2019",
+   "maxTemperature": 27,
+   "minTemperature": 17,
+   "avgTemperature": 21.7,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 17.3
+ },
+ {
+   "date": "30.08.2019",
+   "maxTemperature": 28,
+   "minTemperature": 16,
+   "avgTemperature": 22.1,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 18
+ },
+ {
+   "date": "31.08.2019",
+   "maxTemperature": 30,
+   "minTemperature": 14,
+   "avgTemperature": 23.4,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 19.6
+ },
+ {
+   "date": "01.09.2019",
+   "maxTemperature": 30,
+   "minTemperature": 16,
+   "avgTemperature": 23.2,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 20.3
+ },
+ {
+   "date": "02.09.2019",
+   "maxTemperature": 31,
+   "minTemperature": 13,
+   "avgTemperature": 22.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 21.3
+ },
+ {
+   "date": "03.09.2019",
+   "maxTemperature": 30,
+   "minTemperature": 12,
+   "avgTemperature": 20.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 20
+ },
+ {
+   "date": "04.09.2019",
+   "maxTemperature": 32,
+   "minTemperature": 11,
+   "avgTemperature": 22.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 21.5
+ },
+ {
+   "date": "05.09.2019",
+   "maxTemperature": 32,
+   "minTemperature": 14,
+   "avgTemperature": 23.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 22.2
+ },
+ {
+   "date": "06.09.2019",
+   "maxTemperature": 27,
+   "minTemperature": 16,
+   "avgTemperature": 19.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 19.3
+ },
+ {
+   "date": "07.09.2019",
+   "maxTemperature": 26,
+   "minTemperature": 14,
+   "avgTemperature": 19.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 18.3
+ },
+ {
+   "date": "08.09.2019",
+   "maxTemperature": 27,
+   "minTemperature": 14,
+   "avgTemperature": 20.8,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 16.8
+ },
+ {
+   "date": "09.09.2019",
+   "maxTemperature": 27,
+   "minTemperature": 16,
+   "avgTemperature": 21.6,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 17.3
+ },
+ {
+   "date": "10.09.2019",
+   "maxTemperature": 27,
+   "minTemperature": 16,
+   "avgTemperature": 21.8,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 17.7
+ },
+ {
+   "date": "11.09.2019",
+   "maxTemperature": 28,
+   "minTemperature": 17,
+   "avgTemperature": 22.4,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 18.5
+ },
+ {
+   "date": "12.09.2019",
+   "maxTemperature": 28,
+   "minTemperature": 16,
+   "avgTemperature": 21.7,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 18
+ },
+ {
+   "date": "13.09.2019",
+   "maxTemperature": 28,
+   "minTemperature": 15,
+   "avgTemperature": 21.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 18.4
+ },
+ {
+   "date": "14.09.2019",
+   "maxTemperature": 26,
+   "minTemperature": 10,
+   "avgTemperature": 18.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 17.5
+ },
+ {
+   "date": "15.09.2019",
+   "maxTemperature": 27,
+   "minTemperature": 11,
+   "avgTemperature": 18.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 17.3
+ },
+ {
+   "date": "16.09.2019",
+   "maxTemperature": 27,
+   "minTemperature": 10,
+   "avgTemperature": 18,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 16.9
+ },
+ {
+   "date": "17.09.2019",
+   "maxTemperature": 26,
+   "minTemperature": 10,
+   "avgTemperature": 19.1,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 17.3
+ },
+ {
+   "date": "18.09.2019",
+   "maxTemperature": 26,
+   "minTemperature": 16,
+   "avgTemperature": 20.8,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": null,
+   "effectiveTemperature": 17.6
+ },
+ {
+   "date": "19.09.2019",
+   "maxTemperature": 20,
+   "minTemperature": 13,
+   "avgTemperature": 16.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 15.3
+ },
+ {
+   "date": "20.09.2019",
+   "maxTemperature": 17,
+   "minTemperature": 7,
+   "avgTemperature": 12.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 10.3
+ },
+ {
+   "date": "21.09.2019",
+   "maxTemperature": 17,
+   "minTemperature": 7,
+   "avgTemperature": 9.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 7.4
+ },
+ {
+   "date": "22.09.2019",
+   "maxTemperature": 19,
+   "minTemperature": 6,
+   "avgTemperature": 13.9,
+   "atmPressure": "",
+   "windSpeed": 7,
+   "precipitation": 0,
+   "effectiveTemperature": 9
+ },
+ {
+   "date": "23.09.2019",
+   "maxTemperature": 23,
+   "minTemperature": 7,
+   "avgTemperature": 16.6,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 14.2
+ },
+ {
+   "date": "24.09.2019",
+   "maxTemperature": 23,
+   "minTemperature": 7,
+   "avgTemperature": 14.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 12.4
+ },
+ {
+   "date": "25.09.2019",
+   "maxTemperature": 16,
+   "minTemperature": 9,
+   "avgTemperature": 12.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 9.9
+ },
+ {
+   "date": "26.09.2019",
+   "maxTemperature": 15,
+   "minTemperature": 12,
+   "avgTemperature": 13.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 12.1
+ },
+ {
+   "date": "27.09.2019",
+   "maxTemperature": 22,
+   "minTemperature": 13,
+   "avgTemperature": 16.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 16.5
+ },
+ {
+   "date": "28.09.2019",
+   "maxTemperature": 19,
+   "minTemperature": 8,
+   "avgTemperature": 14.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 13.9
+ },
+ {
+   "date": "29.09.2019",
+   "maxTemperature": 22,
+   "minTemperature": 9,
+   "avgTemperature": 15.1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 14.4
+ },
+ {
+   "date": "30.09.2019",
+   "maxTemperature": 24,
+   "minTemperature": 10,
+   "avgTemperature": 17,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 16.5
+ },
+ {
+   "date": "01.10.2019",
+   "maxTemperature": 24,
+   "minTemperature": 12,
+   "avgTemperature": 17.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 16.3
+ },
+ {
+   "date": "02.10.2019",
+   "maxTemperature": 25,
+   "minTemperature": 8,
+   "avgTemperature": 17.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 16
+ },
+ {
+   "date": "03.10.2019",
+   "maxTemperature": 26,
+   "minTemperature": 11,
+   "avgTemperature": 17.6,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 18
+ },
+ {
+   "date": "04.10.2019",
+   "maxTemperature": 29,
+   "minTemperature": 12,
+   "avgTemperature": 19.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 19.5
+ },
+ {
+   "date": "05.10.2019",
+   "maxTemperature": 30,
+   "minTemperature": 13,
+   "avgTemperature": 21.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 20.9
+ },
+ {
+   "date": "06.10.2019",
+   "maxTemperature": 19,
+   "minTemperature": 9,
+   "avgTemperature": 14.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 13.4
+ },
+ {
+   "date": "07.10.2019",
+   "maxTemperature": 17,
+   "minTemperature": 7,
+   "avgTemperature": 12,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 10.5
+ },
+ {
+   "date": "08.10.2019",
+   "maxTemperature": 16,
+   "minTemperature": 8,
+   "avgTemperature": 10.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 9.3
+ },
+ {
+   "date": "09.10.2019",
+   "maxTemperature": 12,
+   "minTemperature": 6,
+   "avgTemperature": 8.7,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 6.9
+ },
+ {
+   "date": "10.10.2019",
+   "maxTemperature": 21,
+   "minTemperature": 5,
+   "avgTemperature": 11.9,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 11.3
+ },
+ {
+   "date": "11.10.2019",
+   "maxTemperature": 23,
+   "minTemperature": 8,
+   "avgTemperature": 15.4,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 14.2
+ },
+ {
+   "date": "12.10.2019",
+   "maxTemperature": 19,
+   "minTemperature": 4,
+   "avgTemperature": 12.6,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 12
+ },
+ {
+   "date": "13.10.2019",
+   "maxTemperature": 21,
+   "minTemperature": 4,
+   "avgTemperature": 11.9,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 11.2
+ },
+ {
+   "date": "14.10.2019",
+   "maxTemperature": 23,
+   "minTemperature": 6,
+   "avgTemperature": 13.2,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 11.9
+ },
+ {
+   "date": "15.10.2019",
+   "maxTemperature": 23,
+   "minTemperature": 4,
+   "avgTemperature": 13.6,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 13.2
+ },
+ {
+   "date": "16.10.2019",
+   "maxTemperature": 25,
+   "minTemperature": 6,
+   "avgTemperature": 15.2,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 13.6
+ },
+ {
+   "date": "17.10.2019",
+   "maxTemperature": 23,
+   "minTemperature": 7,
+   "avgTemperature": 14.1,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 13.9
+ },
+ {
+   "date": "18.10.2019",
+   "maxTemperature": 23,
+   "minTemperature": 6,
+   "avgTemperature": 14.8,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 14.7
+ },
+ {
+   "date": "19.10.2019",
+   "maxTemperature": 21,
+   "minTemperature": 12,
+   "avgTemperature": 15.3,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 15.5
+ },
+ {
+   "date": "20.10.2019",
+   "maxTemperature": 17,
+   "minTemperature": 8,
+   "avgTemperature": 12.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 11.4
+ },
+ {
+   "date": "21.10.2019",
+   "maxTemperature": 17,
+   "minTemperature": 5,
+   "avgTemperature": 11.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 10.1
+ },
+ {
+   "date": "22.10.2019",
+   "maxTemperature": 18,
+   "minTemperature": 4,
+   "avgTemperature": 11.2,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 9.8
+ },
+ {
+   "date": "23.10.2019",
+   "maxTemperature": 18,
+   "minTemperature": 5,
+   "avgTemperature": 11.1,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 10.3
+ },
+ {
+   "date": "24.10.2019",
+   "maxTemperature": 21,
+   "minTemperature": 5,
+   "avgTemperature": 11.9,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 11.2
+ },
+ {
+   "date": "25.10.2019",
+   "maxTemperature": 21,
+   "minTemperature": 5,
+   "avgTemperature": 12.3,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 11.5
+ },
+ {
+   "date": "26.10.2019",
+   "maxTemperature": 17,
+   "minTemperature": 7,
+   "avgTemperature": 12.1,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 11.7
+ },
+ {
+   "date": "27.10.2019",
+   "maxTemperature": 19,
+   "minTemperature": 5,
+   "avgTemperature": 10.1,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 9.3
+ },
+ {
+   "date": "28.10.2019",
+   "maxTemperature": 14,
+   "minTemperature": 4,
+   "avgTemperature": 9.5,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 8.8
+ },
+ {
+   "date": "29.10.2019",
+   "maxTemperature": 17,
+   "minTemperature": 11,
+   "avgTemperature": 13.5,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": null,
+   "effectiveTemperature": 13.3
+ },
+ {
+   "date": "30.10.2019",
+   "maxTemperature": 13,
+   "minTemperature": 3,
+   "avgTemperature": 9.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 7.2
+ },
+ {
+   "date": "31.10.2019",
+   "maxTemperature": 7,
+   "minTemperature": -2,
+   "avgTemperature": 2.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": -0.7
+ },
+ {
+   "date": "01.11.2019",
+   "maxTemperature": 5,
+   "minTemperature": -2,
+   "avgTemperature": 1.8,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": -3.8
+ },
+ {
+   "date": "02.11.2019",
+   "maxTemperature": 6,
+   "minTemperature": -3,
+   "avgTemperature": 1.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": -2.9
+ },
+ {
+   "date": "03.11.2019",
+   "maxTemperature": 14,
+   "minTemperature": -1,
+   "avgTemperature": 5.2,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 1.2
+ },
+ {
+   "date": "04.11.2019",
+   "maxTemperature": 19,
+   "minTemperature": 0,
+   "avgTemperature": 7.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 4.8
+ },
+ {
+   "date": "05.11.2019",
+   "maxTemperature": 21,
+   "minTemperature": 3,
+   "avgTemperature": 12.1,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 9.4
+ },
+ {
+   "date": "06.11.2019",
+   "maxTemperature": 24,
+   "minTemperature": 5,
+   "avgTemperature": 13.5,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 11.7
+ },
+ {
+   "date": "07.11.2019",
+   "maxTemperature": 25,
+   "minTemperature": 5,
+   "avgTemperature": 12.7,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 11.6
+ },
+ {
+   "date": "08.11.2019",
+   "maxTemperature": 25,
+   "minTemperature": 4,
+   "avgTemperature": 13.2,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 12.3
+ },
+ {
+   "date": "09.11.2019",
+   "maxTemperature": 22,
+   "minTemperature": 3,
+   "avgTemperature": 11.6,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 10.5
+ },
+ {
+   "date": "10.11.2019",
+   "maxTemperature": 16,
+   "minTemperature": 2,
+   "avgTemperature": 8.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 6.3
+ },
+ {
+   "date": "11.11.2019",
+   "maxTemperature": 22,
+   "minTemperature": 2,
+   "avgTemperature": 9.7,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 8.4
+ },
+ {
+   "date": "12.11.2019",
+   "maxTemperature": 16,
+   "minTemperature": 2,
+   "avgTemperature": 9.1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 7.1
+ },
+ {
+   "date": "13.11.2019",
+   "maxTemperature": 14,
+   "minTemperature": 5,
+   "avgTemperature": 8.6,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": 0,
+   "effectiveTemperature": 4.7
+ },
+ {
+   "date": "14.11.2019",
+   "maxTemperature": 16,
+   "minTemperature": 5,
+   "avgTemperature": 8.9,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 4.2
+ },
+ {
+   "date": "15.11.2019",
+   "maxTemperature": 16,
+   "minTemperature": 0,
+   "avgTemperature": 8.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 5.3
+ },
+ {
+   "date": "16.11.2019",
+   "maxTemperature": 16,
+   "minTemperature": -1,
+   "avgTemperature": 5.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 2.8
+ },
+ {
+   "date": "17.11.2019",
+   "maxTemperature": 14,
+   "minTemperature": -2,
+   "avgTemperature": 4.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 2.4
+ },
+ {
+   "date": "18.11.2019",
+   "maxTemperature": 13,
+   "minTemperature": -3,
+   "avgTemperature": 3.8,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 1.2
+ },
+ {
+   "date": "19.11.2019",
+   "maxTemperature": 12,
+   "minTemperature": -4,
+   "avgTemperature": 3.1,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 1.2
+ },
+ {
+   "date": "20.11.2019",
+   "maxTemperature": 8,
+   "minTemperature": 1,
+   "avgTemperature": 3.4,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": -0.4
+ },
+ {
+   "date": "21.11.2019",
+   "maxTemperature": 4,
+   "minTemperature": -3,
+   "avgTemperature": -0.9,
+   "atmPressure": "",
+   "windSpeed": 10,
+   "precipitation": 0,
+   "effectiveTemperature": -9.3
+ },
+ {
+   "date": "22.11.2019",
+   "maxTemperature": 3,
+   "minTemperature": -4,
+   "avgTemperature": -0.6,
+   "atmPressure": "",
+   "windSpeed": 9,
+   "precipitation": 0,
+   "effectiveTemperature": -8.4
+ },
+ {
+   "date": "23.11.2019",
+   "maxTemperature": 5,
+   "minTemperature": -5,
+   "avgTemperature": -1.6,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": -7.5
+ },
+ {
+   "date": "24.11.2019",
+   "maxTemperature": 8,
+   "minTemperature": -6,
+   "avgTemperature": 0.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": -3.5
+ },
+ {
+   "date": "25.11.2019",
+   "maxTemperature": 10,
+   "minTemperature": -4,
+   "avgTemperature": 2.8,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": -0.7
+ },
+ {
+   "date": "26.11.2019",
+   "maxTemperature": 10,
+   "minTemperature": -3,
+   "avgTemperature": 3.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -0.1
+ },
+ {
+   "date": "27.11.2019",
+   "maxTemperature": 11,
+   "minTemperature": 5,
+   "avgTemperature": 7.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 4.5
+ },
+ {
+   "date": "28.11.2019",
+   "maxTemperature": 10,
+   "minTemperature": 2,
+   "avgTemperature": 6.8,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": null,
+   "effectiveTemperature": 5.6
+ },
+ {
+   "date": "29.11.2019",
+   "maxTemperature": 14,
+   "minTemperature": 6,
+   "avgTemperature": 10.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 7.2
+ },
+ {
+   "date": "30.11.2019",
+   "maxTemperature": 12,
+   "minTemperature": 3,
+   "avgTemperature": 9.4,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": 5.8
+ },
+ {
+   "date": "01.12.2019",
+   "maxTemperature": 7,
+   "minTemperature": 1,
+   "avgTemperature": 3.9,
+   "atmPressure": "",
+   "windSpeed": 5,
+   "precipitation": null,
+   "effectiveTemperature": -0.4
+ },
+ {
+   "date": "02.12.2019",
+   "maxTemperature": 2,
+   "minTemperature": -2,
+   "avgTemperature": 0.3,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": -3.5
+ },
+ {
+   "date": "03.12.2019",
+   "maxTemperature": 9,
+   "minTemperature": -1,
+   "avgTemperature": 2.2,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -1.8
+ },
+ {
+   "date": "04.12.2019",
+   "maxTemperature": 3,
+   "minTemperature": -5,
+   "avgTemperature": 0.3,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": -2.6
+ },
+ {
+   "date": "05.12.2019",
+   "maxTemperature": 3,
+   "minTemperature": -4,
+   "avgTemperature": -1.1,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": -4.2
+ },
+ {
+   "date": "06.12.2019",
+   "maxTemperature": 7,
+   "minTemperature": -4,
+   "avgTemperature": 0.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": -2.4
+ },
+ {
+   "date": "07.12.2019",
+   "maxTemperature": 6,
+   "minTemperature": -6,
+   "avgTemperature": -0.9,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": -4
+ },
+ {
+   "date": "08.12.2019",
+   "maxTemperature": 5,
+   "minTemperature": -7,
+   "avgTemperature": 0.8,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": -1.5
+ },
+ {
+   "date": "09.12.2019",
+   "maxTemperature": 7,
+   "minTemperature": 2,
+   "avgTemperature": 4.6,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 2.3
+ },
+ {
+   "date": "10.12.2019",
+   "maxTemperature": 10,
+   "minTemperature": -2,
+   "avgTemperature": 3.5,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 1.7
+ },
+ {
+   "date": "11.12.2019",
+   "maxTemperature": 1,
+   "minTemperature": -1,
+   "avgTemperature": 0.6,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": -1.5
+ },
+ {
+   "date": "12.12.2019",
+   "maxTemperature": 1,
+   "minTemperature": -2,
+   "avgTemperature": 0,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": -4.1
+ },
+ {
+   "date": "13.12.2019",
+   "maxTemperature": 6,
+   "minTemperature": -3,
+   "avgTemperature": 1.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -2.2
+ },
+ {
+   "date": "14.12.2019",
+   "maxTemperature": 10,
+   "minTemperature": 3,
+   "avgTemperature": 6.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 3.9
+ },
+ {
+   "date": "15.12.2019",
+   "maxTemperature": 16,
+   "minTemperature": 8,
+   "avgTemperature": 10.9,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 8.1
+ },
+ {
+   "date": "16.12.2019",
+   "maxTemperature": 10,
+   "minTemperature": 0,
+   "avgTemperature": 6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 3.2
+ },
+ {
+   "date": "17.12.2019",
+   "maxTemperature": 12,
+   "minTemperature": -2,
+   "avgTemperature": 4.2,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 2.4
+ },
+ {
+   "date": "18.12.2019",
+   "maxTemperature": 15,
+   "minTemperature": -2,
+   "avgTemperature": 6.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 3.9
+ },
+ {
+   "date": "19.12.2019",
+   "maxTemperature": 16,
+   "minTemperature": 7,
+   "avgTemperature": 11.3,
+   "atmPressure": "",
+   "windSpeed": 6,
+   "precipitation": 0,
+   "effectiveTemperature": 7
+ },
+ {
+   "date": "20.12.2019",
+   "maxTemperature": 8,
+   "minTemperature": 1,
+   "avgTemperature": 4.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 1.8
+ },
+ {
+   "date": "21.12.2019",
+   "maxTemperature": 9,
+   "minTemperature": -1,
+   "avgTemperature": 2.6,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": 0,
+   "effectiveTemperature": 0.7
+ },
+ {
+   "date": "22.12.2019",
+   "maxTemperature": 10,
+   "minTemperature": -1,
+   "avgTemperature": 5.4,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": 0,
+   "effectiveTemperature": 3
+ },
+ {
+   "date": "23.12.2019",
+   "maxTemperature": 15,
+   "minTemperature": 6,
+   "avgTemperature": 9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": 6.2
+ },
+ {
+   "date": "24.12.2019",
+   "maxTemperature": 10,
+   "minTemperature": 5,
+   "avgTemperature": 7.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": 0,
+   "effectiveTemperature": 3.9
+ },
+ {
+   "date": "25.12.2019",
+   "maxTemperature": 10,
+   "minTemperature": 5,
+   "avgTemperature": 6.7,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 4
+ },
+ {
+   "date": "26.12.2019",
+   "maxTemperature": 9,
+   "minTemperature": 4,
+   "avgTemperature": 6.7,
+   "atmPressure": "",
+   "windSpeed": 1,
+   "precipitation": null,
+   "effectiveTemperature": 5.3
+ },
+ {
+   "date": "27.12.2019",
+   "maxTemperature": 6,
+   "minTemperature": 5,
+   "avgTemperature": 5.9,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": null,
+   "effectiveTemperature": 3.3
+ },
+ {
+   "date": "28.12.2019",
+   "maxTemperature": 9,
+   "minTemperature": 4,
+   "avgTemperature": 5.7,
+   "atmPressure": "",
+   "windSpeed": 2,
+   "precipitation": null,
+   "effectiveTemperature": 3.6
+ },
+ {
+   "date": "29.12.2019",
+   "maxTemperature": 7,
+   "minTemperature": 4,
+   "avgTemperature": 5.3,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": 1.7
+ },
+ {
+   "date": "30.12.2019",
+   "maxTemperature": 4,
+   "minTemperature": 2,
+   "avgTemperature": 2.8,
+   "atmPressure": "",
+   "windSpeed": 4,
+   "precipitation": null,
+   "effectiveTemperature": -1
+ },
+ {
+   "date": "31.12.2019",
+   "maxTemperature": 5,
+   "minTemperature": 0,
+   "avgTemperature": 1.6,
+   "atmPressure": "",
+   "windSpeed": 3,
+   "precipitation": 0,
+   "effectiveTemperature": -1.7
+ }
+]

@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @AllArgsConstructor
@@ -13,5 +14,10 @@ import java.util.List;
 @Setter
 public class ValueForm {
     private String type;
-    private List<Integer> values;
+    private List<Float> values;
+
+    public ValueForm(String type) {
+        this.type = type;
+        this.values = new ArrayList<>();
+    }
 }
